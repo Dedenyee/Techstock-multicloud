@@ -1,0 +1,24 @@
+# Terraform - nunca versionar
+*.tfstate
+*.tfstate.backup
+*.tfvars
+*.tfvars.json
+tfplan
+.terraform/
+.terraform.lock.hcl
+crash.log
+crash.*.log
+
+# Segredos e chaves
+*.pem
+*.key
+*.ppk
+.env
+
+# OS
+.DS_Store
+
+# Backups locais
+*.bkp
+*.bak
+*.orig
